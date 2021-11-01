@@ -5,8 +5,8 @@ import styles from "./styles";
 import theme from "../../global/styles/theme";
 import GuildIcon from '../GuildIcon';
 import categories from '../../utils/categories';
-import PlayerSvg from '../../assets/player.svg';
 import CalendarSvg from '../../assets/calendar.svg';
+import PlayerSvg from '../../assets/player.svg';
 
 type GuildProps = {
   id: string,
