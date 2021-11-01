@@ -12,34 +12,35 @@ const styles = StyleSheet.create({
   },
   content: {
     alignItems: 'center',
-    backgroundColor: theme.colors.secondary40,
     borderRadius: 8,
     height: 116,
     justifyContent: 'space-between',
-    paddingVertical: 7,
+    paddingVertical: 20,
     width: 100
   },
   checked: {
-    alignSelf: 'flex-end',
     backgroundColor: theme.colors.primary,
-    borderRadius: 3,
-    height: 11,
-    marginRight: 7,
-    width: 11
+    borderRadius: 2,
+    height: 10,
+    position: 'absolute',
+    right: 7,
+    top: 7,
+    width: 10
   },
   check: {
-    alignSelf: 'flex-end',
     backgroundColor: theme.colors.secondary100,
     borderColor: theme.colors.secondary50,
     borderRadius: 3,
     borderWidth: 2,
     height: 13,
-    marginRight: 7,
+    position: 'absolute',
+    right: 7,
+    top: 7,
     width: 13
   },
   title: {
     color: theme.colors.heading,
-    fontFamily: theme.fonts.semi_bold,
+    fontFamily: theme.fonts.bold,
     fontSize: 15
   }
 });
